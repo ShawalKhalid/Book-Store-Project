@@ -120,7 +120,7 @@ export default {
     },
     sortTrend() {
        this.cards.sort((a, b) => a.type.length-b.type.length)
-       return this.sortButton = 'Business Books'
+       return this.sortButton = 'Life Books'
     },
     sortI(name){
       this.cards = this.it.filter((e) => e.type.match(name) || e.color.match(name))
