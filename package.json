@@ -2,10 +2,8 @@
   "name": "Vue-storeFront",
   "version": "0.1.0",
   "private": true,
-  "engines": {
     "node": "0.12.x",
-    "npm": "2.5.x"
-  },
+    "npm": "2.5.x",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
