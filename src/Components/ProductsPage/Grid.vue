@@ -18,7 +18,7 @@
           <div class="dropdown">
             <button class="btn btn-light dropdown-toggle d-block d-lg-none d-xl-none" role="button" id="MenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATAGORIES</button>
             <div class="dropdown-menu" aria-labelledby="MenuLink">
-              <a class="dropdown-item" @click="sortI('Fiction Books')">Fiction Books</a>
+              <a class="dropdown-item" @click="sortI('table')">Fiction Books</a>
               <a class="dropdown-item" @click="sortI('lamp')">Adventure Books</a>
               <a class="dropdown-item" @click="sortI('chair')">Life Books</a>
               
