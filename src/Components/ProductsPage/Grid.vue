@@ -19,17 +19,9 @@
             <button class="btn btn-light dropdown-toggle d-block d-lg-none d-xl-none" role="button" id="MenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATAGORIES</button>
             <div class="dropdown-menu" aria-labelledby="MenuLink">
               <a class="dropdown-item" @click="sortI('Fiction Books')">Fiction Books</a>
-              <a class="dropdown-item" @click="sortI('lamp')">Lamps</a>
-              <a class="dropdown-item" @click="sortI('chair')">Chairs</a>
-              <a class="dropdown-item" @click="sortI('sofa')">Sofas</a>
-              <div class="dropdown-divider"></div>
-              <div class="pl-3">
-                <span class="circle" style="background-color:yellow" @click="sortI('yellow')" />
-                <span class="circle" style="background-color:blue" @click="sortI('blue')"  />
-                <span class="circle" style="background-color:white" @click="sortI('white')" />
-                <span class="circle" style="background-color:red" @click="sortI('red')" />
-              </div>
-              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" @click="sortI('lamp')">Adventure Books</a>
+              <a class="dropdown-item" @click="sortI('chair')">Life Books</a>
+              
               <a class="dropdown-item" @click="reSet">Reset</a>
             </div>
           </div>
